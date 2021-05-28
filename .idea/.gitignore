@@ -37,3 +37,6 @@ cache.properties.lock
 *.iws
 .gradle/
 **/.gradle/
+# Default ignored files
+/shelf/
+/workspace.xml
