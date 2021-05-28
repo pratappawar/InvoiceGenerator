@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="InvoiceGeneratorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-28T18:10:05" hostname="LAPTOP-JK99497U" time="0.052">
+  <properties/>
+  <testcase name="givenMultipleRides_ShouldReturnInvoiceSummery()" classname="InvoiceGeneratorTest" time="0.052"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
