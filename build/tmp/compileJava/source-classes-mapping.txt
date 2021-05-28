@@ -1,6 +1,0 @@
-Ride.java
- Ride
-InvoiceSummery.java
- InvoiceSummary
-InvoiceGenerator.java
- InvoiceGenerator
