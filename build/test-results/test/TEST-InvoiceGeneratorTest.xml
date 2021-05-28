@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="InvoiceGeneratorTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-28T19:57:39" hostname="LAPTOP-JK99497U" time="0.054">
+<testsuite name="InvoiceGeneratorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-05-28T20:14:43" hostname="LAPTOP-JK99497U" time="0.058">
   <properties/>
-  <testcase name="givenUserIdReturnTheInvoice()" classname="InvoiceGeneratorTest" time="0.054"/>
+  <testcase name="givenUserIdReturnTheInvoice()" classname="InvoiceGeneratorTest" time="0.041"/>
+  <testcase name="ReturnTotalRidesTotalFareAndAverageFarePerRide()" classname="InvoiceGeneratorTest" time="0.001"/>
+  <testcase name="addingPremiumAndNormalRide()" classname="InvoiceGeneratorTest" time="0.001"/>
+  <testcase name="givenLessDistanceOrTimeShouldReturnMinFare()" classname="InvoiceGeneratorTest" time="0.001"/>
+  <testcase name="givenDistanceAndTime_ShouldReturnTotalFare()" classname="InvoiceGeneratorTest" time="0.004"/>
+  <testcase name="givenMultipleRides_ShouldReturnInvoiceSummery()" classname="InvoiceGeneratorTest" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

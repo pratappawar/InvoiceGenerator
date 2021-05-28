@@ -9,8 +9,9 @@ public class Ride {
      * parameterized constructor declaration
      * @param distance
      * @param time
+     * @param premium
      */
-    public Ride(double distance, int time) {
+    public Ride(double distance, int time, PremiumRide premium) {
         this.distance=distance;
         this.time=time;
 

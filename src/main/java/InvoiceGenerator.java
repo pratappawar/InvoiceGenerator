@@ -20,7 +20,7 @@ public class InvoiceGenerator {
     }
 
     public InvoiceSummary calculateFare(Ride[] rides) {
-        double totalFare = 0.0;
+        double totalFare = 0;
         for (Ride ride : rides)
             totalFare = totalFare + this.calculateFare(ride.distance, ride.time);
         return new InvoiceSummary(rides.length, totalFare);
@@ -32,7 +32,7 @@ public class InvoiceGenerator {
      * @return
      */
     public double calculateTotalFare(Ride[] rides) {
-        double totalFare = 0.0;
+        double totalFare = 0;
         for (Ride ride : rides)
             totalFare = totalFare + this.calculateFare(ride.distance, ride.time);
         return totalFare;

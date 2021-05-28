@@ -1,8 +1,10 @@
+InvoiceSummery.java
+ InvoiceSummary
 Ride.java
  Ride
 RideRepository.java
  RideRepository
+PremiumRide.java
+ PremiumRide
 InvoiceGenerator.java
  InvoiceGenerator
-InvoiceSummery.java
- InvoiceSummary
